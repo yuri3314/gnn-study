@@ -1,5 +1,16 @@
 # GNN演習
-このプロジェクトは Cora データセットで GNN を実装し、Accuracy 81.8% を達成しました。（あくまで個人的な学習用途）
+# GNN演習
 
-はじめはGCN (Graph Convolutional Networks)モデルを選んだが、GAT (Graph Attention Networks)モデルを採択することで0.08%精度が向上した。
+本プロジェクトでは、Coraデータセットを用いて
+Graph Neural Network (GNN) を実装しました。
+
+- 使用データセット: Cora
+- モデル: GCN, GAT
+- 最終Accuracy: 81.8%
+
+当初はGCN (Graph Convolutional Network) を使用していましたが、
+GAT (Graph Attention Network) を採用した結果、
+Accuracyが0.8ポイント向上しました。
+
+※個人的な学習目的で実装したものです。
 
